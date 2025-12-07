@@ -13,6 +13,7 @@ import java.util.List;
 @RestController
 public class AnswerController {
 
+    // Repository for managing answers
     @Autowired
     private AnswerRepository answerRepository;
 
