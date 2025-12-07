@@ -20,5 +20,5 @@ jobs:
         
       - name: Deploy to Server
         run: |
-          cp target/postgres-demo-0.0.1-SNAPSHOT.jar /opt/backend-app/app.jar
+          sudo cp target/postgres-demo-0.0.1-SNAPSHOT.jar /opt/backend-app/app.jar
           sudo systemctl restart backend-app
