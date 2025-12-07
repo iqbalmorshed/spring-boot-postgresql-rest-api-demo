@@ -7,10 +7,6 @@ on:
       - "src/**"
       - "pom.xml"
       - ".github/workflows/**"
-    paths-ignore:
-      - "etc/**"
-      - "var/log/**"
-      - "**.md"
 
 jobs:
   deploy:
